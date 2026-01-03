@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+@import "tailwindcss";
+
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentcolor);
+  }
+}
+
+@layer base {
+  html {
+    color-scheme: light dark;
+    font-family: "Inter", sans-serif;
+  }
+
+  html,
+  body {
+    @apply bg-black text-white;
+    font-size: 15px;
+    width: 100%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+
+  .using-mouse * {
+    outline: none !important;
+  }
+}
