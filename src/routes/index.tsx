@@ -9,7 +9,7 @@ export const Route = createFileRoute("/")({
 function Home() {
   return (
     <main className="min-h-screen w-7xl mx-auto p-8">
-      <section className="grid grid-cols-4 grid-row-6 gap-2">
+      <section className="grid grid-cols-4 grid-row-6 gap-4">
         <section className="col-span-2  min-h-20 bg-gray-800 space-y-4 rounded-4xl px-6 py-4">
           <div className="flex items-center space-x-10">
             <div>
@@ -37,8 +37,54 @@ function Home() {
 
         <Experience />
         <SideProjectsCard />
-        <section className="col-span-2 min-h-20 bg-gray-800 space-y-4 rounded-lg px-6 py-4"></section>
-        <section className="col-span-2 min-h-20 bg-gray-800 space-y-4 rounded-lg px-6 py-4"></section>
+        <section className="col-span-2 min-h-20 bg-gray-800 space-y-4 rounded-4xl px-6 py-4">
+          <h2>Books</h2>
+          <div className="grid grid-cols-2 gap-4">
+            <figure>
+              <img
+                src="/images/mere.jpg"
+                width={60}
+                height={60}
+                alt="mere christianity"
+              />
+              <figcaption>
+                <div>
+                  <p>CS Lewis</p>
+                  <p>Mere Christianity</p>
+                </div>
+              </figcaption>
+            </figure>
+            <figure>
+              <img
+                src="/images/naval.jpg"
+                width={60}
+                height={60}
+                alt="mere christianity"
+              />
+              <figcaption>
+                <div>
+                  <p>CS Lewis</p>
+                  <p>Mere Christianity</p>
+                </div>
+              </figcaption>
+            </figure>{" "}
+            <figure>
+              <img
+                src="/images/habits.jpg"
+                width={60}
+                height={60}
+                alt="mere christianity"
+              />
+              <figcaption>
+                <div>
+                  <p>CS Lewis</p>
+                  <p>Mere Christianity</p>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+        </section>
+        <section className="col-span-2 min-h-20 bg-gray-800 space-y-4 rounded-4xl px-6 py-4"></section>
         <section className="col-span-2 min-h-20 bg-gray-800 space-y-4 rounded-lg px-6 py-4"></section>
       </section>
     </main>

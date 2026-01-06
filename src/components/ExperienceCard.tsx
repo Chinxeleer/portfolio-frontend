@@ -2,7 +2,7 @@ import React from "react";
 
 function Experience() {
   return (
-    <section className="col-span-2 row-span-2 min-h-20 bg-gray-800 space-y-4 rounded-4xl px-6 py-4">
+    <section className="col-span-2 min-h-20 bg-gray-800 space-y-4 rounded-4xl px-6 py-4">
       <h1>Experience</h1>
       <table className="w-full">
         <tbody className="space-y-20">
