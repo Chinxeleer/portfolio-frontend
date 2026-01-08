@@ -39,7 +39,7 @@ function Home() {
         <SideProjectsCard />
         <section className="col-span-2 min-h-20 bg-gray-800 space-y-4 rounded-4xl px-6 py-4">
           <h2>Books</h2>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-2 gap-4 p-4">
             <figure>
               <img
                 src="/images/mere.jpg"
@@ -63,8 +63,8 @@ function Home() {
               />
               <figcaption>
                 <div>
-                  <p>CS Lewis</p>
-                  <p>Mere Christianity</p>
+                  <p>Eric Jorgenson</p>
+                  <p>The Almanack of Naval Ravikant</p>
                 </div>
               </figcaption>
             </figure>{" "}
@@ -77,15 +77,29 @@ function Home() {
               />
               <figcaption>
                 <div>
-                  <p>CS Lewis</p>
-                  <p>Mere Christianity</p>
+                  <p>James Clear</p>
+                  <p>Atomic Habits</p>
+                </div>
+              </figcaption>
+            </figure>
+            <figure>
+              <img
+                src="/images/options.jpg"
+                width={60}
+                height={60}
+                alt="mere christianity"
+              />
+              <figcaption>
+                <div>
+                  <p>Sheldon Natenberg</p>
+                  <p>Option Volatility & Pricing</p>
                 </div>
               </figcaption>
             </figure>
           </div>
+          <h2>Games</h2>
+          <h2>Podcasts</h2>
         </section>
-        <section className="col-span-2 min-h-20 bg-gray-800 space-y-4 rounded-4xl px-6 py-4"></section>
-        <section className="col-span-2 min-h-20 bg-gray-800 space-y-4 rounded-lg px-6 py-4"></section>
       </section>
     </main>
   );
