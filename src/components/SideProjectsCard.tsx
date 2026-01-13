@@ -3,7 +3,7 @@ import React from "react";
 function SideProjectsCard() {
   return (
     <section className="col-span-2 row-span-2 min-h-20 bg-gray-800 space-y-4 rounded-4xl px-6 py-4">
-      <h1>Side Projects</h1>
+      <h3>Side Projects</h3>
       <table className="w-full">
         <tbody className="space-y-20">
           <tr className="">
@@ -18,7 +18,7 @@ function SideProjectsCard() {
                 >
                   Comparative Forecasting and Prediction Research
                 </a>
-                <p>
+                <p className="sub-text">
                   As a Computer Science student I had the opportunity to work on
                   this as my Honours research project. Conducted Honours
                   research comparing state-of-the-art deep learning
@@ -41,9 +41,9 @@ function SideProjectsCard() {
             <td className="py-4 w-3/4 align-top">
               <div>
                 <a href="AnalyticsX" target="_blank">
-                  Personal Website
+                  Rust Portfolio Website
                 </a>
-                <p>
+                <p className="sub-text">
                   As a scientist, I'm always looking for ways to improve my
                   skills and knowledge. I challenged myself as part of my
                   journey in learning rust to build a website using the rust{" "}
@@ -62,36 +62,6 @@ function SideProjectsCard() {
                   </a>
                   .
                 </p>
-              </div>
-            </td>
-          </tr>
-          <tr className="">
-            <td className="py-4 w-1/4 align-top">
-              <p>2025</p>
-              <p>Jan - July</p>
-            </td>
-            <td className="py-4 w-3/4 align-top">
-              <div>
-                <p>Software Developer</p>
-                <a href="" target="_blank">
-                  AnalyticsX
-                </a>
-                <p>Sandton, Johannesburg</p>
-              </div>
-            </td>
-          </tr>
-          <tr className="">
-            <td className="py-4 w-1/4 align-top">
-              <p>2025</p>
-              <p>Jan - July</p>
-            </td>
-            <td className="py-4 w-3/4 align-top">
-              <div>
-                <p>Software Developer</p>
-                <a href="" target="_blank">
-                  AnalyticsX
-                </a>
-                <p>Sandton, Johannesburg</p>
               </div>
             </td>
           </tr>

@@ -26,7 +26,16 @@
     overflow-x: hidden;
   }
 
-  .using-mouse * {
-    outline: none !important;
+  h1,h2,h3,h4,h5,h6 {
+    @apply text-gray-200;
   }
+
+  a{
+    @apply text-gray-200 hover:text-gray-400;
+  }
+
+}
+
+.sub-text {
+  @apply text-sm text-gray-400;
 }

@@ -17,37 +17,7 @@ function Experience() {
                 <a href="" target="_blank">
                   AnalyticsX
                 </a>
-                <p>Sandton, Johannesburg</p>
-              </div>
-            </td>
-          </tr>
-          <tr className="">
-            <td className="py-4 w-1/4 align-top">
-              <p>2025</p>
-              <p>Jan - July</p>
-            </td>
-            <td className="py-4 w-3/4 align-top">
-              <div>
-                <p>Software Developer</p>
-                <a href="" target="_blank">
-                  AnalyticsX
-                </a>
-                <p>Sandton, Johannesburg</p>
-              </div>
-            </td>
-          </tr>
-          <tr className="">
-            <td className="py-4 w-1/4 align-top">
-              <p>2025</p>
-              <p>Jan - July</p>
-            </td>
-            <td className="py-4 w-3/4 align-top">
-              <div>
-                <p>Software Developer</p>
-                <a href="" target="_blank">
-                  AnalyticsX
-                </a>
-                <p>Sandton, Johannesburg</p>
+                <p className="sub-text">Sandton, Johannesburg</p>
               </div>
             </td>
           </tr>
