@@ -2,14 +2,29 @@ import React from "react";
 
 function Experience() {
   return (
-    <section className="col-span-2 min-h-20 bg-gray-800 space-y-4 rounded-4xl px-6 py-4">
-      <h1>Experience</h1>
+    <section className="md:col-span-2 md:min-h-20 card-background space-y-4 rounded-4xl px-6 py-4">
+      <h3>Experience</h3>
       <table className="w-full">
         <tbody className="space-y-20">
           <tr className="">
             <td className="py-4 w-1/4 align-top">
+              <span className="rounded-full px-2 py-1 text-blue-900 text-[12px] bg-[#42fd55]">
+                Present
+              </span>
+            </td>
+            <td className="py-4 w-3/4 align-top">
+              <div>
+                <p>Junior Software Developer</p>
+                <a href="" target="_blank">
+                  RiskCafe
+                </a>
+                <p className="sub-text">Rosebank, Johannesburg</p>
+              </div>
+            </td>
+          </tr>
+          <tr className="">
+            <td className="py-4 w-1/4 align-top">
               <p>2025</p>
-              <p>Jan - July</p>
             </td>
             <td className="py-4 w-3/4 align-top">
               <div>

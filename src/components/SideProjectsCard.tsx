@@ -2,13 +2,13 @@ import React from "react";
 
 function SideProjectsCard() {
   return (
-    <section className="col-span-2 row-span-2 min-h-20 bg-gray-800 space-y-4 rounded-4xl px-6 py-4">
+    <section className="col-span-2 card-background space-y-8 rounded-4xl px-6 py-4">
       <h3>Side Projects</h3>
       <table className="w-full">
-        <tbody className="space-y-20">
-          <tr className="">
+        <tbody>
+          <tr>
             <td className="py-4 w-1/4 align-top">
-              <p>2024</p>
+              <p>2025</p>
             </td>
             <td className="py-4 w-3/4 align-top">
               <div>
@@ -19,22 +19,14 @@ function SideProjectsCard() {
                   Comparative Forecasting and Prediction Research
                 </a>
                 <p className="sub-text">
-                  As a Computer Science student I had the opportunity to work on
-                  this as my Honours research project. Conducted Honours
-                  research comparing state-of-the-art deep learning
-                  architectures (Mamba, Informer, iTransformer, FEDformer, and
-                  Autoformer) for financial time series forecasting.
-                  Investigated how attention-based transformers and selective
-                  state space models handle the challenges of non-stationary,
-                  high-noise market data and long-term prediction
-                  horizonsFinancial time series forecasting remains challenging
-                  due to non stationarity, high noise, and complex dependencies
-                  in market data.
+                  Evaluated transformer based and state space models for
+                  financial time series forecasting under non stationary, high
+                  noise conditions.
                 </p>
               </div>
             </td>
           </tr>
-          <tr className="">
+          <tr>
             <td className="py-4 w-1/4 align-top">
               <p>2024</p>
             </td>
@@ -44,9 +36,7 @@ function SideProjectsCard() {
                   Rust Portfolio Website
                 </a>
                 <p className="sub-text">
-                  As a scientist, I'm always looking for ways to improve my
-                  skills and knowledge. I challenged myself as part of my
-                  journey in learning rust to build a website using the rust{" "}
+                  Designed and deployed a full-stack Rust system using{" "}
                   <a href="https://www.leptos.dev/" target="_blank">
                     Leptos framework
                   </a>{" "}
@@ -54,10 +44,10 @@ function SideProjectsCard() {
                   <a href="https://docs.rs/axum/latest/axum/" target="_blank">
                     Axum
                   </a>{" "}
-                  for the server side. I got exposed to a lot of async rust and
-                  learning how to configure and deploy a server in rust as the
-                  website was deployed on{" "}
-                  <a href="fly.io" target="_blank">
+                  , with emphasis on async execution, containerization with
+                  Docker, file and Markdown content management, and production
+                  deployment on{" "}
+                  <a href="https://fly.io/" target="_blank">
                     fly.io
                   </a>
                   .

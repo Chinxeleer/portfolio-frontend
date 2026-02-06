@@ -24,8 +24,8 @@ export const Route = createRootRoute({
       },
       ...seo({
         title:
-          'TanStack Start | Type-Safe, Client-First, Full-Stack React Framework',
-        description: `TanStack Start is a type-safe, client-first, full-stack React framework. `,
+          'Chinxeleer | Blessing Kodze - Software Engineer Portfolio',
+        description: `My name is Blessing Kodze, a Software Engineer specializing in building exceptional digital experiences. Welcome to my portfolio!`,
       }),
     ],
     links: [
@@ -39,13 +39,13 @@ export const Route = createRootRoute({
         rel: 'icon',
         type: 'image/png',
         sizes: '32x32',
-        href: '/favicon-32x32.png',
+        href: 'favicon-32x32.png',
       },
       {
         rel: 'icon',
         type: 'image/png',
         sizes: '16x16',
-        href: '/favicon-16x16.png',
+        href: 'favicon-16x16.png',
       },
       { rel: 'manifest', href: '/site.webmanifest', color: '#fffff' },
       { rel: 'icon', href: '/favicon.ico' },
